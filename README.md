@@ -16,4 +16,4 @@ Our users request that numbers that are multiples of seven will result in a "Siv
 
 ### Solution
 
-A FizzBuzz class is used to determine the appropriate output. There is a list of the numbers, which is stored as a hash key string with values to use in the modulo. FizzBuzz is initalized with pairs Fizz 3 and Buzz 5, so the solution works for the first problem. Numbers can be added to the list using the method `add_number(number,text)`. For example, `add_number(7,'sivv')` will add to the list.
+A FizzBuzz class is used to determine the appropriate output. There is a list of the numbers, which is stored as a hash key string with values to use in the modulo. FizzBuzz is initalized with pairs Fizz 3 and Buzz 5, so the solution works for the first problem. Numbers can be added to the list using the method `add_number(number,text)`. For example, `add_number(7,'sivv')` will add to the list. This solution does not take into account the order of the items in the hash, but so far, I noticed that numbers are appended to the end. If this matters, then then additional code can be added to sort the list by the modulo value.

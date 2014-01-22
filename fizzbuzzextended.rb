@@ -22,7 +22,7 @@ end
 
 
 # Test the FizzBuzz
-fb = FizzBuzz.new
+fb = FizzBuzzExtended.new
 puts "Evaluating FizzBuzz"
 (0..100).each do |n|
   puts fb.evaluate_fizz_buzz_extended(n)
